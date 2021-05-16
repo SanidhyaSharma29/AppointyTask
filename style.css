@@ -1,0 +1,227 @@
+body{
+	background-color: #fcfdff!important;
+}
+
+h5{
+	color: #414a4d;
+	font-family: 'Raleway', sans-serif;
+}
+
+.BigText{
+	color: #414a4d;
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.5em;
+	font-size: 2.2em;
+	font-weight: 600;
+}
+
+.smallText{
+	color: #707070;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 450;
+}
+
+.nav1{
+	width: 100%;
+	padding: 0.6em 0em;
+}
+
+.logo{
+	max-width: 30%;
+	max-height: auto;
+}
+
+.navlink{
+	display: flex;
+	font-size: medium;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+}
+
+.navbar{
+	box-shadow:0px 1px 30px -15px grey;
+	color: #858585;
+}
+
+.btn1{
+  	background: linear-gradient(to right, #8a2387, #fa5057);
+	color: white;
+	border-radius: 50px;
+	text-align: center;
+	padding: 0.7em 1.8em;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.btn1:hover{
+	color: white;
+	transform: translateY(-3px);
+}
+
+.herosection{
+	padding-top: 9.5em;
+}
+.herosection1{
+	padding-top: 6em;
+}
+
+
+.lower-hero{
+	padding: 4.5em 0em;
+}
+
+.subhead{
+	font-weight: 630;
+	line-height: 1.5em;
+}
+.subtext{
+	font-size: 1.15rem;
+	line-height: 1.5;
+	padding-top: 1.3em;
+}
+
+.padd{
+	padding: 2.2em 0;
+}
+
+.allinOne{
+	background-color: #f2f5f9;
+	padding: 4.5em;
+}
+
+.innerallinone{
+	display: flex;
+
+}
+
+.above{
+	position: relative;
+	z-index: 100;
+  box-shadow:0px 31px 120px rgb(50 50 50 / 12%);
+}
+
+.bgchange{
+	background-color: #f2f5fa;
+}
+
+.btn2{
+	background-color: #f5f8fb;
+	border-radius: 50px;
+	padding: 0.6em 1.2em;
+	text-align: center;
+	color: #414a4d;
+	text-decoration: none;
+}
+
+.btn2:hover{
+	color: #414a4d;
+	transform: translateY(-3px);
+}
+
+.threebtns{
+	display: flex;
+	height: 40vh;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.btn3{
+	background-color: #fcfdff;
+	border : 2px solid #d93464;
+	border-radius: 50px;
+	padding: 0.6em 1.4em;
+	color: #d93464;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.btn3:hover{
+	color: white;
+	background-color: #d93464;
+	transform: translateY(-3px);
+}
+
+.testimonial{
+	border: 1px solid #cacbcc;
+	border-radius: 10px;
+	min-height: 45vh;
+}
+
+.testimonialtext{
+	padding: 0em 4.8em 0.3em 2.8em;
+}
+
+.testimg{
+	position: relative;
+	left: -10px;
+	top:-30px;
+}
+
+.testimonialtext1{
+	width: fit-content;
+	padding: 0em 0em 0em 2.8em;
+}
+
+.complogo{
+	width: 10%;
+	height: auto;
+}
+
+.peacecard{
+	background-color: white;
+	padding: 2em;
+}
+
+#footer{
+	/*background-image: url("");
+	background-size: cover;*/
+	background-color: #edf1f6;
+}
+
+.footercont{
+	padding-top: 7em;
+	padding-bottom: 6em;
+}
+
+.copyright{
+	background-color: #272a2b;
+	color:#6a6b6b;
+}
+
+.copyrightimage{
+	border-radius: 50px;
+	width: 30%;
+}
+
+.online{
+	background-color: #3bd821;
+	border-radius: 50%;
+	width: 0.9em;
+    height: 0.9em;
+    position: relative;
+    left: -1.1em;
+    top: 3.1em;
+}
+
+.footerlinks{
+	display: flex;
+	flex-direction: column;
+	padding:1em;
+	cursor: pointer;
+}
+
+.Sociallogos{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 22px;
+}
+
+.profile{
+	justify-content: flex-end;
+}
+
+#signupbtn{
+	background: linear-gradient(to right, #d93564, #fe5355);
+}
